@@ -5,35 +5,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+
 </head>
 
 <body>
 
-  Equilibrium #3429
+  <div class="container">
+    <div class="mainBox">
+      <div class="mainBox__img">
+        <img src="./images/image-equilibrium.jpg" alt="">
+      </div>
+      <div class="contentBox">
+        <div class="contenBox__title">
+          <h2 class="title">Equilibrium #3429</h2>
+        </div>
 
-  Our Equilibrium collection promotes balance and calm.
+        <div class="contentBox__paragraph">
+          <p class="mainText">Our Equilibrium collection promotes balance and calm.</p>
+        </div>
 
-  0.041 ETH
-  3 days left
+        <div class="contenBox__Indicators">
+          <div class="contenBox__Indicators__Price">
+            <p class="price__text">0.041 ETH</p>
+          </div>
+          <div class="contenBox__Indicators__Days">
+            <p class="days__text">3 days left</p>
+          </div>
+        </div>
+      </div>
 
-  Creation of Jules Wyvern
+      <div class="credits">
+        <div class="credits__img"></div>
+        <div class="credits__text">
+          <div class="credits__texto">Creation of <span>Jules Wyvern</span></div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

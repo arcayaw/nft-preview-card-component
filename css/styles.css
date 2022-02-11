@@ -45,9 +45,70 @@ img {
     --Cyan: hsl(178, 100%, 50%);
 
     /*-- neutral --*/
-    --VeryDark blue (main BG): hsl(217, 54%, 11%);
-    --VeryDark2 blue (card BG): hsl(216, 50%, 16%);
-    --VeryDark3 blue (line): hsl(215, 32%, 27%);
+
+    --VeryDark: hsl(217, 54%, 11%);
+    --VeryDark2: hsl(216, 50%, 16%);
+    --VeryDark3: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 
+}
+
+body {
+    background-color: var(--VeryDark);
+    font-family: 'Outfit',
+        sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    background-color: var(--VeryDark);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox {
+    height: 590px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: var(--VeryDark2);
+}
+
+.mainBox__img {
+    margin: 1.5rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.contenBox__title {
+    margin: 1.5rem;
+}
+
+.contentBox__paragraph {
+    margin: 1.5rem;
+}
+
+.title {
+    color: var(--White);
+    font-weight: 300;
+}
+
+.mainText {
+    color: var(--SoftBlue);
+    font-weight: lighter;
+}
+
+
+/*-- footer --*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
